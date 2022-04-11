@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import {Button} from "@mui/material";
 
 function App() {
     return (
@@ -7,6 +7,7 @@ function App() {
             <header className="App-header">
                 OwO
             </header>
+            <Button variant="text">Text</Button>
         </div>
     );
 }
